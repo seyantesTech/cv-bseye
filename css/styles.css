@@ -1,0 +1,43 @@
+h1, h2{
+    text-align: center;
+}
+
+.contenu {
+    width: 500px;
+    margin: 10px auto;
+    /*centrer contenu au milieu de la page */
+    /* background-color: lightskyblue; */
+}
+
+
+.details {
+    /* background-color: lightpink; */
+    height: 100px;
+}
+
+div.details img{
+    height: 100px;
+    float: left;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.liste-details {
+    /* background-color:lightsalmon ; */
+    float:right;
+    list-style-type: none;
+
+}
+
+.cv-section {
+    /* background-color: lightsteelblue; */
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 0px;
+}
+
+hr {
+    border-color: lightskyblue;
+}
