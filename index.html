@@ -5,7 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CV en ligne</title>
-<link rel="stylesheet" href="css/styles.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
@@ -14,82 +17,111 @@
         <div class="details">
             <img width="100px" src="images/me.png" alt="image de profile">
             <ul class="liste-details">
-                <li>Babacar SEYE</li>
+                <li class="h3">Babacar SEYE</li>
                 <!-- <li>Habite en région parisienne</li> -->
-                <li><strong>Nationalité</strong>: française</li>
-                <li><strong>Tel:</strong> +337 80 78 43 69</li>
-                <li><strong>EMail:</strong> seyebabacar@icloud.com</li>
+                <!-- <li><strong>Nationalité</strong>: française</li> -->
+                <li><strong>Tel:</strong> +337 80 78 43 69 & +221 77 268 42 34</li>
+                <li><strong>Email:</strong> babacarseye@seyantestech.com</li>
             </ul>
-        </div>
-        
-        <h1> <span>Ingénieur</span> fullstack <br> python & Django</h1>
-
-        <div class="cv-section">
-            <hr>
-
-            <h2>Expériences Professionelles</h2>
-            <strong>Développeur python senior. Client: EDF LAB</strong><br>
-            <span>De Mai 2022 à Décembre 2022 // 7 mois</span>
-            <p>Développement back-end en python et automatisation suivant la norme ISO/IEC/IEEE 9003. <br>
-                Evironnement technique :
-            </p>
-            <ul>
-                <li>Python 2, Python 3, Gitlab</li>
-                <li>Shell, bash, linux</li>
-                <li>Postgresql</li>
-            </ul>
-
-            <br>
-            <strong>Intégrateur data senior et management de production au service de DEVOPS et Architectes.
-                <br> Client: BNPPARIBAS Corporate & Investment Banking</strong><br>
-            <span>De Août 2020 à Avril 2022 // 20 mois</span>
-            <p> Intégration applicative pour le CIB DATAHUB: remplacement de l'architecture data existante sous alteryx
-                par
-                le framework python/spark.
-                <br>Evironnement technique:
-            </p>
-            <ul>
-                <li>Python, spark, Kubernetes, Ansible, Kafka</li>
-                <li>infrastructure Cloud IV2 marketplace</li>
-                <li>Jenkins, autosys (AXWAY), mssql</li>
-            </ul>
-
-
-        </div>
-
-        <div class="cv-section">
-            <hr>
-
-            <h2>Formations</h2>
-            <strong>Septembre 2022</strong><br>
-            <span>Certification : expertise en Python chez UDEMY</span><br><br>
-
-            <strong>Mars 2021</strong><br>
-            <span>Certification PCEP Python chez "Python Institute"</span><br><br>
-
-            <strong>2015:</strong>
-            <span>92500 Rueil-Malmaison</span><br>
-            <span>Certification "ITIL Foundation", score 38/40. Obtenue chez Global knowledge</span><br><br>
-
-            <strong>Septembre 2014:</strong>
-            <span>PARIS</span> <br>
-            <span>Diplôme d'ingénieur en informatique, mention très honorable <br> Spécialisation dans la stratégies des
-                systèmes d'information bancaires. <br> ESIEA - Ecole Supérieure d'Informatique Electronique et
-                Automatique</span><br><br>
-        </div>
-
-        <div class="cv-section">
-            <hr>
-
-            <h2>Compétences</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Développement front-end</li>
-            </ul>
-
         </div>
     </div>
+
+    <h1> <span>Ingénieur</span> fullstack <br> python & Django</h1>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <!-- <div class="cv-section"> -->
+                    <h2>Expériences Professionelles</h2>
+                    <strong>Développeur web back-end pour compte propre</strong><br>
+                    <span>De Décembre 2022 à Aujourd'hui</span>
+                    <p>Conception et déploiement du site https://www.seyantestech.com <br>
+                        Evironnement technique :
+                    </p>
+                    <ul>
+                        <li>Python 3, Django, bootstrap html, css</li>
+                        <li>Shell, bash, linux</li>
+                        <li>Github</li>
+                    </ul>
+                    <p>En parallèle, projet de développement d'un assistant vocal via pyttsx (connexion api,
+                        récupération de dictionnaire au format json, traitement et gestion audio). Il sera lié plus
+                        tard au gestionnaire de tâches (via la bibliothèque tkinter) afin de construire une
+                        secrétaire qui gère les rendez-vous dans un calendrier avec une version audio.
+                        Ces projets sont consultables dans l'onglet « projets » de mon site web. </p>
+
+                    <br>
+                    <strong>Développeur python senior. Client: EDF LAB</strong><br>
+                    <span>De Mai 2022 à Décembre 2022 // 7 mois</span>
+                    <p>Développement back-end en python et automatisation suivant la norme ISO/IEC/IEEE 9003. <br>
+                        Evironnement technique :
+                    </p>
+                    <ul>
+                        <li>Python 2, Python 3, Gitlab</li>
+                        <li>Shell, bash, linux</li>
+                        <li>Postgresql</li>
+                    </ul>
+
+                    <br>
+                    <strong>Intégrateur data senior et management de production au service de DEVOPS et Architectes.
+                        <br> Client: BNPPARIBAS Corporate & Investment Banking</strong><br>
+                    <span>De Août 2020 à Avril 2022 // 20 mois</span>
+                    <p> Intégration applicative pour le CIB DATAHUB: remplacement de l'architecture data existante
+                        sous alteryx
+                        par
+                        le framework python/spark.
+                        <br>Evironnement technique:
+                    </p>
+                    <ul>
+                        <li>Python, spark, Kubernetes, Ansible, Kafka</li>
+                        <li>infrastructure Cloud IV2 marketplace</li>
+                        <li>Jenkins, autosys (AXWAY), mssql</li>
+                    </ul>
+                <!-- </div> -->
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg">
+                <!-- <div class="cv-section"> -->
+                    <h2>Formations</h2>
+                    <strong>Septembre 2022</strong><br>
+                    <span>Certification : expertise en Python chez UDEMY</span><br><br>
+
+                    <strong>Mars 2021</strong><br>
+                    <span>Certification PCEP Python chez "Python Institute"</span><br><br>
+
+                    <strong>2015:</strong>
+                    <span>92500 Rueil-Malmaison</span><br>
+                    <span>Certification "ITIL Foundation", score 38/40. Obtenue chez Global knowledge</span><br><br>
+
+                    <strong>Septembre 2014:</strong>
+                    <span>PARIS</span> <br>
+                    <span>Diplôme d'ingénieur en informatique, mention très honorable <br> Spécialisation dans la
+                        stratégies des
+                        systèmes d'information bancaires. <br> ESIEA - Ecole Supérieure d'Informatique Electronique
+                        et
+                        Automatique</span><br><br>
+                <!-- </div> -->
+
+                <!-- <div class="cv-section"> -->
+                    <hr>
+
+                    <h2>Compétences</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Développement front-end</li>
+                    </ul>
+
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
